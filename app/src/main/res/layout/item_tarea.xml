@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <CheckBox
+        android:id="@+id/cbTarea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:buttonTint="@color/teal_200" />
+
+    <TextView
+        android:id="@+id/tvTarea"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Tarea"
+        android:textSize="18sp"
+        android:textColor="?android:textColor"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tvCategoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categoría"
+        android:textSize="14sp"
+        android:textColor="@color/gray"
+        android:paddingStart="8dp" />
+</LinearLayout>
+
+
+
+
+
+
+
+
